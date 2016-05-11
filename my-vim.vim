@@ -5,8 +5,8 @@
 set autoread
 
 " Switch to the tab to the left.
-map <F7> :tabp<CR>
-map <F8> :tabn<CR>
+nnoremap <F7> :tabp<CR>
+nnoremap <F8> :tabn<CR>
 
 " Set VIM history.
 set history=500
@@ -19,7 +19,7 @@ filetype plugin on
 filetype indent on
 
 " Always show current position.
-set ruler
+set number
 
 " Configure backspace.
 set backspace=eol,start,indent
